@@ -1,0 +1,71 @@
+.brand-logo {
+	width: 25%;
+	padding-top: 1em;
+	padding-bottom: .5em;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background: #104e8b;
+background: -webkit-linear-gradient(left, #104e8b, #1a7fe3);
+background: -moz-linear-gradient(left, #104e8b, #1a7fe3);
+background: -ms-linear-gradient(left, #104e8b, #1a7fe3);
+background: -o-linear-gradient(left, #104e8b, #1a7fe3);
+background: linear-gradient(to right, #104e8b, #1a7fe3);
+    border-width: 0px;
+    border-radius: 0px;
+	font-weight: 600;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+  
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    background: #104e8b;
+background: -webkit-linear-gradient(left, #104e8b, #1a7fe3);
+background: -moz-linear-gradient(left, #104e8b, #1a7fe3);
+background: -ms-linear-gradient(left, #104e8b, #1a7fe3);
+background: -o-linear-gradient(left, #104e8b, #1a7fe3);
+background: linear-gradient(to right, #104e8b, #1a7fe3);
+    background-color: #FFFFFF;
+	font-weight: 600;
+	
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+   background: #104e8b;
+background: -webkit-linear-gradient(left, #104e8b, #1a7fe3);
+background: -moz-linear-gradient(left, #104e8b, #1a7fe3);
+background: -ms-linear-gradient(left, #104e8b, #1a7fe3);
+background: -o-linear-gradient(left, #104e8b, #1a7fe3);
+background: linear-gradient(to right, #104e8b, #1a7fe3);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #702082;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background: #104e8b;
+background: -webkit-linear-gradient(left, #104e8b, #1a7fe3);
+background: -moz-linear-gradient(left, #104e8b, #1a7fe3);
+background: -ms-linear-gradient(left, #104e8b, #1a7fe3);
+background: -o-linear-gradient(left, #104e8b, #1a7fe3);
+background: linear-gradient(to right, #104e8b, #1a7fe3);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ffffff;
+}
+
+#custom-bootstrap-menu {
+	box-shadow: 0 4px 4px 1px gray;
+}

@@ -1,0 +1,58 @@
+.sidebar {	
+	margin-top: -1.4em;
+	height: 100%;
+	box-shadow: 0 4px 4px 1px gray;
+	background: #104e8b;
+background: -webkit-linear-gradient(left, #104e8b, #1a7fe3);
+background: -moz-linear-gradient(left, #104e8b, #1a7fe3);
+background: -ms-linear-gradient(left, #104e8b, #1a7fe3);
+background: -o-linear-gradient(left, #104e8b, #1a7fe3);
+background: linear-gradient(to right, #104e8b, #1a7fe3);
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+	.sidebar {
+		padding-bottom: 5em;
+	}
+}
+
+.sidebar a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #ffffff;
+	display: block;
+	font-weight: 500;
+}
+
+div.tab a {
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-size: 14px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	/* Safari 4-5, Chrome 1-9 */
+	/* Can't specify a percentage size? Laaaaaame. */
+	background: #104e8b;
+background: -webkit-linear-gradient(left, #104e8b, #1a7fe3);
+background: -moz-linear-gradient(left, #104e8b, #1a7fe3);
+background: -ms-linear-gradient(left, #104e8b, #1a7fe3);
+background: -o-linear-gradient(left, #104e8b, #1a7fe3);
+background: linear-gradient(to right, #104e8b, #1a7fe3);
+}
+
+
+/* Change background color of links on hover */
+
+div.tab a:hover {
+	background-position: center center;
+	background-repeat: no-repeat;
+	/* Safari 4-5, Chrome 1-9 */
+	/* Can't specify a percentage size? Laaaaaame. */
+	background: #104e8b;
+background: -webkit-linear-gradient(left, #104e8b, #1a7fe3);
+background: -moz-linear-gradient(left, #104e8b, #1a7fe3);
+background: -ms-linear-gradient(left, #104e8b, #1a7fe3);
+background: -o-linear-gradient(left, #104e8b, #1a7fe3);
+background: linear-gradient(to right, #104e8b, #1a7fe3);
+}
