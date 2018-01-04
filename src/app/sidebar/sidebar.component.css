@@ -1,6 +1,7 @@
 .sidebar {	
+	 
 	margin-top: -1.4em;
-	height: 100%;
+	height: 100vh;
 	box-shadow: 0 4px 4px 1px gray;
 	background: #104e8b;
 background: -webkit-linear-gradient(left, #104e8b, #1a7fe3);
@@ -42,7 +43,7 @@ background: linear-gradient(to right, #104e8b, #1a7fe3);
 }
 
 
-/* Change background color of links on hover */
+
 
 div.tab a:hover {
 	background-position: center center;
