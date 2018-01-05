@@ -2,6 +2,13 @@
 html, body
 {
     height: 100%;
+		background: #104e8b;
+background: -webkit-linear-gradient(left, #104e88, #1a7f73);
+background: -moz-linear-gradient(left, #104e88, #1a7f73);
+background: -ms-linear-gradient(left, #104e88, #1a7f73);
+background: -o-linear-gradient(left, #104e88, #1a7f73);
+background: linear-gradient(to right, #104e88, #1a7f73);
+
 }
 body
 {
@@ -9,4 +16,13 @@ body
     flex-direction: column;
 	
 	
+}
+
+.glass::before {
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.glass {
+  background-color: white;
 }

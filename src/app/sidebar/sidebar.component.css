@@ -27,7 +27,7 @@ background: linear-gradient(to right, #104e8b, #1a7fe3);
 
 div.tab a {
 	text-align: center;
-	padding: 10px 10px;
+	padding: 15px 10px;
 	text-decoration: none;
 	font-size: 14px;
 	background-position: center center;
@@ -51,9 +51,18 @@ div.tab a:hover {
 	/* Safari 4-5, Chrome 1-9 */
 	/* Can't specify a percentage size? Laaaaaame. */
 	background: #104e8b;
-background: -webkit-linear-gradient(left, #104e8b, #1a7fe3);
-background: -moz-linear-gradient(left, #104e8b, #1a7fe3);
-background: -ms-linear-gradient(left, #104e8b, #1a7fe3);
-background: -o-linear-gradient(left, #104e8b, #1a7fe3);
-background: linear-gradient(to right, #104e8b, #1a7fe3);
+background: -webkit-linear-gradient(left, #104e88, #1a7f73);
+background: -moz-linear-gradient(left, #104e88, #1a7f73);
+background: -ms-linear-gradient(left, #104e88, #1a7f73);
+background: -o-linear-gradient(left, #104e88, #1a7f73);
+background: linear-gradient(to right, #104e88, #1a7f73);
+}
+
+.add-on {
+	padding-top: 1em;
+}
+input[type="text"] {
+	border: none;
+	background: none;
+	box-shadow: none;
 }
